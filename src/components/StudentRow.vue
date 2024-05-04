@@ -1,8 +1,8 @@
 <script setup>
 
 import { ref } from 'vue'
-const propes = defineProps({
-    student: object
+const props = defineProps({
+    student: Object
 })
 
 const emit = defineEmits(['arrived-or-left', 'delete-student'])
